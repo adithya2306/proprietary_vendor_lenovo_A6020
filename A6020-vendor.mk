@@ -137,9 +137,48 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/lenovo/A6020/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/lenovo/A6020/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/bin/dpmd:system/product/bin/dpmd \
+    vendor/lenovo/A6020/proprietary/product/etc/dpm/dpm.conf:system/product/etc/dpm/dpm.conf \
+    vendor/lenovo/A6020/proprietary/product/etc/init/dpmd.rc:system/product/etc/init/dpmd.rc \
+    vendor/lenovo/A6020/proprietary/product/etc/permissions/com.qti.dpmframework.xml:system/product/etc/permissions/com.qti.dpmframework.xml \
+    vendor/lenovo/A6020/proprietary/product/etc/permissions/dpmapi.xml:system/product/etc/permissions/dpmapi.xml \
+    vendor/lenovo/A6020/proprietary/product/framework/com.qti.dpmframework.jar:system/product/framework/com.qti.dpmframework.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/com.quicinc.cne.api-V1.1-java.jar:system/product/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/com.quicinc.cne.constants-V1.0-java.jar:system/product/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/com.quicinc.cne.constants-V2.0-java.jar:system/product/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/com.quicinc.cne.constants-V2.1-java.jar:system/product/framework/com.quicinc.cne.constants-V2.1-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/dpmapi.jar:system/product/framework/dpmapi.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.data.factory-V2.0-java.jar:system/product/framework/vendor.qti.data.factory-V2.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.connection-V1.1-java.jar:system/product/framework/vendor.qti.hardware.data.connection-V1.1-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/product/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.quicinc.cne.api@1.0.so:system/product/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.quicinc.cne.api@1.1.so:system/product/lib64/com.quicinc.cne.api@1.1.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.quicinc.cne.constants@1.0.so:system/product/lib64/com.quicinc.cne.constants@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.quicinc.cne.constants@2.0.so:system/product/lib64/com.quicinc.cne.constants@2.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/com.quicinc.cne.constants@2.1.so:system/product/lib64/com.quicinc.cne.constants@2.1.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/libdpmctmgr.so:system/product/lib64/libdpmctmgr.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/libdpmfdmgr.so:system/product/lib64/libdpmfdmgr.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/libdpmframework.so:system/product/lib64/libdpmframework.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/libdpmtcm.so:system/product/lib64/libdpmtcm.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:system/product/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:system/product/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:system/product/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.connection@1.0.so:system/product/lib64/vendor.qti.hardware.data.connection@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.connection@1.1.so:system/product/lib64/vendor.qti.hardware.data.connection@1.1.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so:system/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
+    vendor/lenovo/A6020/proprietary/product/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/product/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/lenovo/A6020/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/lenovo/A6020/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/lenovo/A6020/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/lenovo/A6020/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/lenovo/A6020/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/lenovo/A6020/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/lenovo/A6020/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/lenovo/A6020/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
@@ -164,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/lenovo/A6020/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/lenovo/A6020/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
+    vendor/lenovo/A6020/proprietary/vendor/etc/init/dpmQmiMgr.rc:system/vendor/etc/init/dpmQmiMgr.rc \
     vendor/lenovo/A6020/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/A6020/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/lenovo/A6020/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
@@ -173,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/etc/permissions/telephonyservice.xml:system/vendor/etc/permissions/telephonyservice.xml \
     vendor/lenovo/A6020/proprietary/vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/lenovo/A6020/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/lenovo/A6020/proprietary/vendor/framework/tcmclient.jar:system/vendor/framework/tcmclient.jar \
     vendor/lenovo/A6020/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -398,15 +439,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.constants@2.1.so:system/vendor/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:system/vendor/lib64/com.quicinc.cne.server@2.0.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.server@2.1.so:system/vendor/lib64/com.quicinc.cne.server@2.1.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so:system/vendor/lib64/com.quicinc.cne.server@2.2.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -478,9 +512,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_hi545_liveshot.so:system/vendor/lib64/libchromatix_hi545_liveshot.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_qtech_default_video.so:system/vendor/lib64/libchromatix_ov13850_qtech_default_video.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/lib64/libcneoplookup.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -518,6 +556,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libqti_vndfwk_detect.so:system/vendor/lib64/libqti_vndfwk_detect.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -540,10 +579,18 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.data.factory@1.0.so:system/vendor/lib64/vendor.qti.data.factory@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:system/vendor/lib64/vendor.qti.data.factory@2.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so:system/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
@@ -564,6 +611,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     colorservice \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.api@1.1 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.constants@2.1 \
     ims \
     imssettings \
     qcrilmsgtunnel \

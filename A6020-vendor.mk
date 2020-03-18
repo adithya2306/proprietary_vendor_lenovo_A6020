@@ -413,6 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_qtech_default_video.so:system/vendor/lib64/libchromatix_ov13850_qtech_default_video.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcnefeatureconfig.so:system/vendor/lib64/libcnefeatureconfig.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \

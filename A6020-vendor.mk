@@ -470,6 +470,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libwcnss_qmi.so:system/vendor/lib64/libwcnss_qmi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \

@@ -263,6 +263,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libjni_vsigndetect.so:system/vendor/lib/libjni_vsigndetect.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libjni_wtcammosaic.so:system/vendor/lib/libjni_wtcammosaic.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libjni_wtcamtinyplanet.so:system/vendor/lib/libjni_wtcamtinyplanet.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -546,4 +549,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     shutdownlistener \
-    TimeService
+    TimeService \
+    WTCamera
